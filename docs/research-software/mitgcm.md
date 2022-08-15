@@ -330,8 +330,8 @@ You should receive the following message:
 The compilation commands are similar to those used to build the forward case.
 
     # load relevant modules
-    module load cray-netcdf-hdf5parallel
     module load cray-hdf5-parallel
+    module load cray-netcdf-hdf5parallel
 
     # compile adjoint model
     ../../../MITgcm/tools/genmake2 -ieee -mpi -mods=../code_ad -of=(PATH_TO_OPTFILE)
